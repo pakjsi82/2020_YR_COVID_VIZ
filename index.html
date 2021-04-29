@@ -95,9 +95,9 @@ d3.select('#chart')
 	.call(chart);
 d3.selectAll("#chart path").on('mouseover', function() {
 	var d = d3.select(this).data();
-	d3.select("#info").text('Incident count: ' + d);
+	d3.select("#info").text('COVID-19 Cases: ' + d);
 });
-d3.select("#legendTitle").html("Number of Cases");
+d3.select("#legendTitle").html("Number of COVID-19 Cases");
 
 </script>
 </body>
